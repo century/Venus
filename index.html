@@ -64,6 +64,7 @@
 			class="modal"
 			id="modal">
 			<img
+				loading="lazy"
 				id="modalImage"
 				src=""
 				alt="Full Size Image" />
@@ -84,6 +85,7 @@
 					const imgElement = document.createElement("img");
 					imgElement.src = `${imagesDir}/${path}${image}`;
 					imgElement.alt = image;
+					imgElement.loading = "lazy"; // Add lazy loading
 					imgElement.addEventListener("click", () => {
 						modalImage.src = imgElement.src;
 						modal.classList.add("show");
