@@ -481,6 +481,12 @@
                 "IfPeopleSatOutsideAndLOokedAtTheStars.jpg"
             ],
             "subdirectories": {}
+        },
+        "memex": {
+            "images": [
+                "Pantheon.png"
+            ],
+            "subdirectories": {}
         }
     }
 }

@@ -3,7 +3,7 @@ import json
 
 # Directory containing images
 IMAGES_DIR = './images'
-OUTPUT_FILE = 'image-list.json'
+OUTPUT_FILE = './images/image-list.json'
 
 # Helper function to recursively gather images
 def gather_images(directory):
